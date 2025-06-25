@@ -7,3 +7,10 @@
     --font-inter :  "Inter", sans-serif;
     --color-lavender-gray: #AFB0C0
 }
+
+.profile-post-followrs {
+    @apply text-black font-poppins text-base font-bold leading-normal text-center
+}
+.profile-gmail{
+    @apply text-lavender-gray font-poppins text-sm font-medium leading-normal text-center
+}
