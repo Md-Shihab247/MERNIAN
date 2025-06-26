@@ -22,9 +22,9 @@ import { Link } from 'react-router-dom'
 
 
 const ProfilePanel = () => {
-    let [isCover, setCover] = useState(false)
+    let [isCover, setCover] = useState(true)
     const inputFileRef = useRef()
-    const [imgSrc,setImgSrc] = useState("images/profile.png")
+    const [imgSrc,setImgSrc] = useState("")
 
     const handleSelect = ()=>{
       inputFileRef.current.click()
@@ -46,7 +46,7 @@ const ProfilePanel = () => {
     }
 
   return (
-    <div className=' w-[300px] shadow-2xl'>
+    <div className=' w-[18.4275%]'>
           <div className={`h-[75px] w-full flex justify-center ${isCover ? "bg-[#45437F]" : "bg-white"}`}>
             <div className=' mt-[15px] h-[110px] w-[110px] cursor-pointer overflow-hidden rounded-[50%] bg-[#615DFA] border-white border-[10px]'>
                <img onClick={ handleSelect} className='h-[100%] w-[100%] bg-cover' src={imgSrc} alt="" />

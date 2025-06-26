@@ -14,3 +14,11 @@
 .profile-gmail{
     @apply text-lavender-gray font-poppins text-sm font-medium leading-normal text-center
 }
+
+.social-media-icon {
+    @apply h-10 w-10 rounded-[10px] flex items-center justify-center
+}
+
+.about-me-details{
+    @apply flex items-center justify-start gap-x-[30px] text-lavender-gray text-[12px] font-poppins font-normal leading-normal mt-[18px]
+}
