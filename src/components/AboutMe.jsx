@@ -8,7 +8,7 @@ const AboutMe = () => {
             <p className=' text-[#3E3F5E] font-poppins text-sm leading-normal font-bold capitalize'>About Me</p>
             <BsThreeDots />
         </div>
-        <p className=' mt-[29px] text-lavender-gray text-[12px] font-normal leading-normal text-shadow-[0px_4px_4px_rgba(0,0,0,0.25)] font-poppins'>
+        <p className=' mt-[29px] text-lavender-gray text-[12px] font-normal leading-normal  font-poppins'>
             Hi! My name is A B M Shawon Islam but some people may know me as GameHuntress! I have a Twitch channel where I stream, play and review all the newest games.
         </p>
 

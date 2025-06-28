@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
   const contentArry = [
     {icon : <NewsfeedIcon/>, name : "Newsfeed"},
     {icon : <ProfileIcon/> , name : "Profile"},
-    {icon : <GroupsIcon/> , name : "Groups"},
+    {icon : <GroupsIcon className=' fill-[#AFB0C0] transition duration-300 group-hover:fill-white'/> , name : "Groups"},
     {icon : <PhotosIcon/> , name : "Photos"},
     {icon : <FriendsIcon/> , name : "Friends"},
     {icon : <FriendRequiestIcon/> , name : "Friends Request"},

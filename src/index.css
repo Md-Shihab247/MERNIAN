@@ -22,3 +22,11 @@
 .about-me-details{
     @apply flex items-center justify-start gap-x-[30px] text-lavender-gray text-[12px] font-poppins font-normal leading-normal mt-[18px]
 }
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.participate {
+    transform: translateX(calc(var(--i) * 8px));
+}
